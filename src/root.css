@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+:root {
+  --heading-color: hsl(0, 0%, 17%);
+  --subheading-color: hsl(0, 0%, 59%);
+  --text-font-size: 18px;
+  --heading-font-family: 'Rubik', sans-serif;
+  --text-font-family: 'Rubik', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  color: white;
+  font-family: var(--heading-font-family);
+}
+
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--subheading-color);
+  font-family: var(--heading-font-family);
+}
+
+input {
+  font-size: var(--text-font-size);
+  font-family: var(--text-font-family);
+  outline: none;
+}
+
+p {
+  font-family: var(--text-font-family);
+}
